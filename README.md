@@ -38,7 +38,7 @@ The goal of this project is highlight the effectiveness of the novel state-of-th
 ## Software Technologies and Library Dependencies
 The entire application has been programmed, debugged and tested in the Python programming language using Python’s standard IDLE pre-installed editor on a Windows machine. However, since all of the libraries and software packages used in the development of the hand-detection and gesture-recognition system are platform independent, the program should be able to run on UNIX/Linux machines without any additional difficulties. 
 
-The library dependencies are fulfilled at each component of the HGRS program as per the desired functionality each of them leverage, using the Python Library Stack.
+The library dependencies are fulfilled at each component of i-Guessture as per the desired functionality each of them leverage, using the Python Library Stack.
 
 ![System Component Overview of i-Guessture](readme_images/system_component_overview.PNG)
 
@@ -147,10 +147,10 @@ The Python IDLE code page scrolls as expected on encountering the “Scroll” g
 2. **Brownish/Skin Background:** The presence of tree-wood, human faces or any brownish/skin-colored backgrounds may distort the histogram, which may lead to unexpected skin-clustering results. 
 
 ## Future Works
-In future works, due to the training-ability of i-Guessture, it is expected to extend the database of gestures by training new images. The need of a pointing peripheral device may be completely eradicated by monitoring the centroid of the ‘Fist’ gesture for controlling the cursor position. Finally, comprehensive study on camera calibration would help in setting up a more suitable and robust environment for the usability of the HGRS system. It is also planned to integrate i-Guessture with future NLP projects on novel HCI systems.
+In future works, due to the training-ability of i-Guessture, it is expected to extend the database of gestures by training new images. The need of a pointing peripheral device may be completely eradicated by monitoring the centroid of the ‘Fist’ gesture for controlling the cursor position. Finally, comprehensive study on camera calibration would help in setting up a more suitable and robust environment for the usability of i-Guessture. It is also planned to integrate i-Guessture with future NLP projects on novel HCI systems.
 
 ## Conclusion
-From the project, It was inferred that simple yet effective solutions, such as the GMM clustering approach coupled with HSV color indexing, can drastically improve the performance of HGRS systems in terms of speed, computation and accuracy. However, skin-color detection is not a trivial task, especially when only a part of the body in the image-frame is to be processed. However, in the gist of building such real-time systems, it is crucial to keep in mind the fundamentals and challenges governing these CV-based systems, the most notable one being camera calibration. Finally, it can be concluded from the project that i-Guessture, and other related Hand=Detection and Gesture-Recognition Systems hold a promising future for HCI user interfaces, especially with the current revival and advancement of CV and ML algorithms in conjunction with powerful graphical processing units.
+From the project, It was inferred that simple yet effective solutions, such as the GMM clustering approach coupled with HSV color indexing, can drastically improve the performance of Hand-Detection and Gesture-Recognition systems in terms of speed, computation and accuracy. However, skin-color detection is not a trivial task, especially when only a part of the body in the image-frame is to be processed. However, in the gist of building such real-time systems, it is crucial to keep in mind the fundamentals and challenges governing these CV-based systems, the most notable one being camera calibration. Finally, it can be concluded from the project that i-Guessture, and other related Hand=Detection and Gesture-Recognition Systems hold a promising future for HCI user interfaces, especially with the current revival and advancement of CV and ML algorithms in conjunction with powerful graphical processing units.
 
 ## References
 [1]     H. M. Abdul-Rashid, L. Kiran, M. D. Mirrani and M. N. Maraaj, “CMSWVHG-Control MS Windows via Hand Gesture” in Intl. Multitopic Conf., Lahore, Pakistan, pp. 1-7, 2017.
